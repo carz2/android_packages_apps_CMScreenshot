@@ -65,7 +65,7 @@ public class ScreenshotActivity extends Activity
         mConnection = new MediaScannerConnection(ScreenshotActivity.this, mMediaScannerConnectionClient);
         mConnection.connect();
 
-        takeScreenshot(1);
+        takeScreenshot(2);
     }
 
     void takeScreenshot()
